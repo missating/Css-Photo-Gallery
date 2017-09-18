@@ -29,9 +29,8 @@ img {
 }
 
 img {
-    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray; /* IE5+ */
-      -webkit-filter: grayscale(5); /* Webkit Nightlies & Chrome Canary */
+      filter: gray;
+      -webkit-filter: grayscale(5);
       -webkit-transition: all .8s ease-in-out;  
     }
 
